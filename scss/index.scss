@@ -40,7 +40,7 @@
             display: flex;
             position: relative;
             letter-spacing: 1px;
-            right:-640px;
+            right:-33.5%;
             li{
                 margin: 0 20px;
                 font-size: 14px;
@@ -788,25 +788,19 @@
             justify-content: center;
             align-items: center;
             .myproflie{
-                width: 1200px;
-                height: 1000px;
-                padding:50px;
+                width: 100%;
+                height: 100%;
+                padding:50px; 
                 background-color: rgb(14, 14, 14);
                 display: flex;
+                align-items: center;
                 flex-wrap: wrap;
+                margin: 5px 0;
                 .proflie_left{
+                    height: 30%;
                     width: 600px;
                     position: relative;
                     bottom: -50px;
-                    &::before{
-                        margin: 10px 0;
-                        content: "";
-                        position: absolute;
-                        height: 1px;
-                        width: 153%;
-                        bottom:60px;
-                        background-color:rgb(0, 162, 255);
-                    }
                     .myphoto{
                         display: none;
                     }
@@ -837,15 +831,26 @@
                     }
                 }
                 .proflie_right{
+                    height: 60%;
                     width: 100%;
                     display: flex;
+                    justify-content: space-between;
                     flex-wrap: wrap;
-                    
                     .my{
                         width: 100%;
                         display: flex;
                         flex-wrap: wrap;
                         align-items: center;
+                        position: relative;
+                        &::after{
+                            margin: 10px 0;
+                            content: "";
+                            position: absolute;
+                            height: 1px;
+                            width: 100%;
+                            top:45px;
+                            background-color:rgb(0, 162, 255);
+                        }
                         h1{
                             width: 100%;
                             color:rgb(0, 162, 255);
@@ -875,10 +880,10 @@
                             position: absolute;
                             height: 1px;
                             width: 100%;
-                            top:-20px;
+                            top:50px;
                             background-color:rgb(0, 162, 255);
                         }
-                        margin-top: 50px;
+                        margin-top: 0px;
                         h1{
                             width: 100%;
                             color:rgb(0, 162, 255);
@@ -911,10 +916,10 @@
                             position: absolute;
                             height: 1px;
                             width: 100%;
-                            top:-20px;
+                            top:55px;
                             background-color:rgb(0, 162, 255);
                         }
-                        margin-top: 50px;
+                        margin-top: 0px;
                         h1{
                             width: 100%;
                             color:rgb(0, 162, 255);
@@ -922,11 +927,14 @@
                             margin: 10px 0;
                         }
                         .skil{
+                            position: relative;
+                            top:-20px;
                             width: 100%;
                             color:#fff;
                             li{
                                 display: flex;
                                 width: 100%;
+                                height: 30px;
                                 p{
                                     line-height: 30px;
                                     width: 70%;
@@ -947,10 +955,9 @@
                     }
                 }
             }
-        }
+        } 
     }
     #containder-section-3{
-        
         .containet-center{
             .portfolio{
                 .mo_title{
@@ -1266,6 +1273,9 @@
                             top:-5px;
                             background-color:rgb(0, 162, 255);
                         }
+                        &::after{
+                            display: none;
+                        }
                     }
                     .info{
                         width: 100%;
@@ -1309,6 +1319,7 @@
                         align-items: center;
                         position: relative;
                         margin: 0 8px;
+                        
                         &::before{
                             content: "";
                             position: absolute;
@@ -1328,6 +1339,7 @@
                         .skil{
                             width: 100%;
                             color:#fff;
+                            top:-10px;
                             li{
                                 display: flex;
                                 width: 100%;
@@ -1370,9 +1382,9 @@
                 width: 100%;
                 margin: 10% 10%;
                 h1{
-                    font-size: 16px;
+                    font-size: 18px;
                     letter-spacing: 4px;
-                    font-weight: 800;
+                    font-weight: 600;
                     color:#ffffff;
                     position: relative;
                     left: -9%;
@@ -1387,10 +1399,10 @@
                     &::after{
                         content: "";
                         position: absolute;
-                        left:80%;
+                        left:82%;
                         width: 100%;
                         height: 1px;
-                        background-color: #fff;
+                        background-color: #b9b9b9;
                         top:50%;
                         transform: translate(-50%);
                     }

@@ -41,7 +41,7 @@
   display: flex;
   position: relative;
   letter-spacing: 1px;
-  right: -640px;
+  right: -33.5%;
 }
 #header-section .header-center .gnb li {
   margin: 0 20px;
@@ -767,26 +767,20 @@
     align-items: center;
   }
   #containder-section-2 .containet-center .myproflie {
-    width: 1200px;
-    height: 1000px;
+    width: 100%;
+    height: 100%;
     padding: 50px;
     background-color: rgb(14, 14, 14);
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
+    margin: 5px 0;
   }
   #containder-section-2 .containet-center .myproflie .proflie_left {
+    height: 30%;
     width: 600px;
     position: relative;
     bottom: -50px;
-  }
-  #containder-section-2 .containet-center .myproflie .proflie_left::before {
-    margin: 10px 0;
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 153%;
-    bottom: 60px;
-    background-color: rgb(0, 162, 255);
   }
   #containder-section-2 .containet-center .myproflie .proflie_left .myphoto {
     display: none;
@@ -816,8 +810,10 @@
     margin: 10px 0;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right {
+    height: 60%;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .my {
@@ -825,6 +821,16 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    position: relative;
+  }
+  #containder-section-2 .containet-center .myproflie .proflie_right .my::after {
+    margin: 10px 0;
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    top: 45px;
+    background-color: rgb(0, 162, 255);
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .my h1 {
     width: 100%;
@@ -849,14 +855,14 @@
     flex-wrap: wrap;
     align-items: center;
     position: relative;
-    margin-top: 50px;
+    margin-top: 0px;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .info::before {
     content: "";
     position: absolute;
     height: 1px;
     width: 100%;
-    top: -20px;
+    top: 50px;
     background-color: rgb(0, 162, 255);
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .info h1 {
@@ -885,14 +891,14 @@
     flex-wrap: wrap;
     align-items: center;
     position: relative;
-    margin-top: 50px;
+    margin-top: 0px;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .stack::before {
     content: "";
     position: absolute;
     height: 1px;
     width: 100%;
-    top: -20px;
+    top: 55px;
     background-color: rgb(0, 162, 255);
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .stack h1 {
@@ -902,12 +908,15 @@
     margin: 10px 0;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .stack .skil {
+    position: relative;
+    top: -20px;
     width: 100%;
     color: #fff;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .stack .skil li {
     display: flex;
     width: 100%;
+    height: 30px;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .stack .skil li p {
     line-height: 30px;
@@ -1215,6 +1224,9 @@
     top: -5px;
     background-color: rgb(0, 162, 255);
   }
+  #containder-section-2 .containet-center .myproflie .proflie_right .my::after {
+    display: none;
+  }
   #containder-section-2 .containet-center .myproflie .proflie_right .info {
     width: 100%;
     display: flex;
@@ -1277,6 +1289,7 @@
   #containder-section-2 .containet-center .myproflie .proflie_right .stack .skil {
     width: 100%;
     color: #fff;
+    top: -10px;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .stack .skil li {
     display: flex;
@@ -1317,9 +1330,9 @@
     margin: 10% 10%;
   }
   #containder-section-3-mo .containet-center-mo .portfolio-mo h1 {
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 4px;
-    font-weight: 800;
+    font-weight: 600;
     color: #ffffff;
     position: relative;
     left: -9%;
@@ -1335,10 +1348,10 @@
   #containder-section-3-mo .containet-center-mo .portfolio-mo h1::after {
     content: "";
     position: absolute;
-    left: 80%;
+    left: 82%;
     width: 100%;
     height: 1px;
-    background-color: #fff;
+    background-color: #b9b9b9;
     top: 50%;
     transform: translate(-50%);
   }
