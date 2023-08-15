@@ -6,7 +6,6 @@ const sections = [section2,section3,section4];
 const gnbs = document.querySelectorAll(".gnb li a");
 
 
-
 // 섹션 이동 스크립트 구간 //
 for (let i = 0; i < gnbs.length; i++) {
     gnbs[i].addEventListener("click", (event) => {
@@ -18,28 +17,30 @@ for (let i = 0; i < gnbs.length; i++) {
     });
 }
 
-
-window.addEventListener("wheel", function(e){
-	e.preventDefault();
-},{passive : false});
 let $html = $("html");
 let page = 1;
 let lastPage = $(".center").length;
-$html.animate({scrollTop:0},10);
-$(window).on("wheel", function(e){
-	if($html.is(":animated")) return;
-	if(e.originalEvent.deltaY > 0){
-		if(page== lastPage) return;
-		page++;
-	}else if(e.originalEvent.deltaY < 0){
-		if(page == 1) return;
-		page--;
-	}
-	let posTop = (page-1) * $(window).height();
-	$html.animate({scrollTop : posTop});
-});
+$html.animate({scrollTop: 0}, 10);
 
-$()
+function handleScroll(e) {
+  if ($html.is(":animated")) return;
+  
+  if (e.originalEvent.deltaY > 0) {
+    if (page == lastPage) return;
+    page++;
+  } else if (e.originalEvent.deltaY < 0) {
+    if (page == 1) return;
+    page--;
+  }
+  
+  let posTop = (page - 1) * $(window).height();
+  $html.animate({scrollTop: posTop});
+}
+
+if (window.innerWidth > 1024) {
+  // 반응형 화면 크기보다 큰 경우에만 스크립트 작동
+  $(window).on("wheel", handleScroll);
+}
 // 섹션 이동 스크립트 구간 끝 //
 
 
@@ -166,4 +167,6 @@ for(let i=0; i< portfoliobtns.length; i++){
 		portfoliobtns[i].classList.add("on");
 	}
 }
+
+
 
