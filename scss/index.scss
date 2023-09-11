@@ -613,7 +613,7 @@
         .contact{
             width: 800px;
             h1{
-                height:100px;
+                height:200px;
                 color:#fff;
                 font-size: 90px;
                 font-weight: 600;
@@ -782,7 +782,7 @@
                 flex-wrap: wrap;
                 margin: 5px 0;
                 .proflie_left{
-                    height: 20%;
+                    height: 30%;
                     width: 100%;
                     position: relative;
                     bottom: 0;
@@ -1511,6 +1511,13 @@
             }
             .hamburger-icon{
                 right:-40%;
+                background-color :rgb(0, 162, 255);
+                .hamburger_top{
+                    background-color :rgb(0, 162, 255);
+                }
+                .hamburger_bottom{
+                    background-color :rgb(0, 162, 255);
+                }
             }
             .mo_gnb{
                 position: fixed;
@@ -1599,12 +1606,12 @@
                     border-bottom: 1px dashed #fff;        
                 }
                 .proflie_right{
-                    height: 45%;
+                    height: 55%;
                     width: 100%;
                     display: flex;
                     flex-wrap: wrap;
                     margin-top: 0px;
-                    top:-4%;
+                    top:-2%;
                     position: relative;
                     .my{
                         width: 100%;
@@ -1703,6 +1710,7 @@
                                 width: 100%;
                                 align-items: center;
                                 height: 22px;
+                                margin-bottom: 3%;
                                 p{
                                     width: 55%;
                                     font-size: 13px;

@@ -612,7 +612,7 @@
   width: 800px;
 }
 #containder-section-4 .containet-center .contact h1 {
-  height: 100px;
+  height: 200px;
   color: #fff;
   font-size: 90px;
   font-weight: 600;
@@ -765,7 +765,7 @@
     margin: 5px 0;
   }
   #containder-section-2 .containet-center .myproflie .proflie_left {
-    height: 20%;
+    height: 30%;
     width: 100%;
     position: relative;
     bottom: 0;
@@ -1449,6 +1449,13 @@
   }
   #header-section .header-center .hamburger-icon {
     right: -40%;
+    background-color: rgb(0, 162, 255);
+  }
+  #header-section .header-center .hamburger-icon .hamburger_top {
+    background-color: rgb(0, 162, 255);
+  }
+  #header-section .header-center .hamburger-icon .hamburger_bottom {
+    background-color: rgb(0, 162, 255);
   }
   #header-section .header-center .mo_gnb {
     position: fixed;
@@ -1527,12 +1534,12 @@
     text-align: center;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right {
-    height: 45%;
+    height: 55%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 0px;
-    top: -4%;
+    top: -2%;
     position: relative;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .my {
@@ -1634,6 +1641,7 @@
     width: 100%;
     align-items: center;
     height: 22px;
+    margin-bottom: 3%;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .stack .skil li p {
     width: 55%;
