@@ -143,6 +143,7 @@ class ImageSlider {
 }
 
 // 각 슬라이더 초기화
+const crosstargetSlider = new ImageSlider(".crosstarget_content_center");
 const buyeoSlider = new ImageSlider(".buyeo_content_center");
 const nabiSlider = new ImageSlider(".boknabi_content_center");
 const gueongbokgungSlider = new ImageSlider(".gueongbokgung_content_center");
@@ -153,8 +154,10 @@ const portfoliobtns = document.querySelectorAll(".portfolio_btns li");
 const buyeo = document.querySelector(".buyeo");
 const boknabi = document.querySelector(".boknabi");
 const gueongbokgung = document.querySelector(".gueongbokgung");
+const crosstarget = document.querySelector(".crosstarget");
 
-let portfoliolist = [buyeo,boknabi,gueongbokgung];
+
+let portfoliolist = [crosstarget,buyeo,boknabi,gueongbokgung,];
 
 for(let i=0; i< portfoliobtns.length; i++){
 	portfoliobtns[i].onclick = function(event){

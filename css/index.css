@@ -327,7 +327,7 @@
   background-color: #f1f1f1;
   overflow: hidden;
   display: flex;
-  width: 300%;
+  width: 400%;
   height: 700px;
 }
 #containder-section-3 .containet-center .portfolio .portfolio_list .portTitle {
@@ -337,6 +337,83 @@
   letter-spacing: 1px;
   position: relative;
 }
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget {
+  width: 100%;
+  display: flex;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left {
+  margin: 20px 20px;
+  position: relative;
+  width: 7.5%;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .minitextbox {
+  margin-top: 200px;
+  position: relative;
+  left: 200px;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .minitextbox h4 {
+  margin: 10px 0;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .minitextbox h2 {
+  font-size: 25px;
+  margin: 5px 0;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .view {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  position: absolute;
+  left: 35%;
+  bottom: 18%;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .view a {
+  margin: 0 auto;
+  color: gray;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .view:hover {
+  transition: all 0.3s;
+  background-color: rgb(0, 162, 255);
+  border: 1px solid rgb(0, 162, 255);
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .view:hover a {
+  color: #fff;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center .img_slide {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center .img_slide img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center .img_slide_btns {
+  display: flex;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center .img_slide_btns > div {
+  position: absolute;
+  font-size: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center .img_slide_btns > div a {
+  color: #ffffff;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center .img_slide_btns .prev_btn {
+  left: 10px;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center .img_slide_btns .next_btn {
+  right: 10px;
+}
 #containder-section-3 .containet-center .portfolio .portfolio_list .buyeo {
   width: 100%;
   display: flex;
@@ -344,7 +421,7 @@
 #containder-section-3 .containet-center .portfolio .portfolio_list .buyeo .buyeo_content_left {
   margin: 20px 20px;
   position: relative;
-  width: 10.5%;
+  width: 7.5%;
 }
 #containder-section-3 .containet-center .portfolio .portfolio_list .buyeo .buyeo_content_left .minitextbox {
   margin-top: 200px;
@@ -421,7 +498,7 @@
 #containder-section-3 .containet-center .portfolio .portfolio_list .boknabi .boknabi_content_left {
   margin: 20px 20px;
   position: relative;
-  width: 10.5%;
+  width: 7.5%;
 }
 #containder-section-3 .containet-center .portfolio .portfolio_list .boknabi .boknabi_content_left .minitextbox {
   margin-top: 200px;
@@ -498,7 +575,7 @@
 #containder-section-3 .containet-center .portfolio .portfolio_list .gueongbokgung .gueongbokgung_content_left {
   margin: 20px 20px;
   position: relative;
-  width: 10.5%;
+  width: 7.5%;
 }
 #containder-section-3 .containet-center .portfolio .portfolio_list .gueongbokgung .gueongbokgung_content_left .minitextbox {
   margin-top: 200px;
@@ -942,6 +1019,33 @@
     font-weight: normal;
     font-style: normal;
   }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left {
+    width: 10%;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .minitextbox {
+    margin-top: 100px;
+    left: 0px;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .minitextbox h2 {
+    margin: 10px 0;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .view {
+    width: 250px;
+    height: 40px;
+    left: 0%;
+    bottom: 30%;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center .img_slide {
+    width: 30%;
+    height: 50%;
+    position: relative;
+    left: -80px;
+  }
   #containder-section-3 .containet-center .portfolio .portfolio_list .buyeo .buyeo_content_left {
     width: 10%;
   }
@@ -964,9 +1068,10 @@
     align-items: center;
   }
   #containder-section-3 .containet-center .portfolio .portfolio_list .buyeo .buyeo_content_center .img_slide {
-    width: 40%;
+    width: 30%;
     height: 50%;
     position: relative;
+    left: -80px;
   }
   #containder-section-3 .containet-center .portfolio .portfolio_list .boknabi .boknabi_content_left {
     width: 10%;
@@ -990,9 +1095,10 @@
     align-items: center;
   }
   #containder-section-3 .containet-center .portfolio .portfolio_list .boknabi .boknabi_content_center .img_slide {
-    width: 40%;
+    width: 30%;
     height: 50%;
     position: relative;
+    left: -80px;
   }
   #containder-section-3 .containet-center .portfolio .portfolio_list .gueongbokgung .gueongbokgung_content_left {
     width: 10%;
@@ -1016,9 +1122,10 @@
     align-items: center;
   }
   #containder-section-3 .containet-center .portfolio .portfolio_list .gueongbokgung .gueongbokgung_content_center .img_slide {
-    width: 40%;
+    width: 30%;
     height: 50%;
     position: relative;
+    left: -80px;
   }
   #containder-section-3-mo {
     display: none;
@@ -1276,6 +1383,38 @@
     font-weight: normal;
     font-style: normal;
   }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left {
+    width: 10%;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .minitextbox {
+    margin-top: 100px;
+    left: 0px;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .minitextbox h2 {
+    margin: 20px 0;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .minitextbox h4 {
+    margin: 0;
+    line-height: 20px;
+    font-size: 13px;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left .view {
+    width: 90%;
+    height: 40px;
+    left: 0%;
+    bottom: 30%;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_center .img_slide {
+    width: 30%;
+    height: 40%;
+    position: relative;
+    left: -30px;
+  }
   #containder-section-3 .containet-center .portfolio .portfolio_list .buyeo .buyeo_content_left {
     width: 10%;
   }
@@ -1303,9 +1442,10 @@
     align-items: center;
   }
   #containder-section-3 .containet-center .portfolio .portfolio_list .buyeo .buyeo_content_center .img_slide {
-    width: 40%;
-    height: 45%;
+    width: 30%;
+    height: 40%;
     position: relative;
+    left: -30px;
   }
   #containder-section-3 .containet-center .portfolio .portfolio_list .boknabi .boknabi_content_left {
     width: 10%;
@@ -1334,9 +1474,10 @@
     align-items: center;
   }
   #containder-section-3 .containet-center .portfolio .portfolio_list .boknabi .boknabi_content_center .img_slide {
-    width: 40%;
-    height: 45%;
+    width: 30%;
+    height: 40%;
     position: relative;
+    left: -30px;
   }
   #containder-section-3 .containet-center .portfolio .portfolio_list .gueongbokgung .gueongbokgung_content_left {
     width: 10%;
@@ -1365,9 +1506,10 @@
     align-items: center;
   }
   #containder-section-3 .containet-center .portfolio .portfolio_list .gueongbokgung .gueongbokgung_content_center .img_slide {
-    width: 40%;
-    height: 45%;
+    width: 30%;
+    height: 40%;
     position: relative;
+    left: -30px;
   }
   #containder-section-4 {
     position: relative;
@@ -1491,15 +1633,17 @@
     width: 100%;
     height: 100%;
     padding: 0;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   #containder-section-2 .containet-center .myproflie .proflie_left {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40%;
+    height: 20%;
     bottom: 0%;
     margin-bottom: 10%;
     border-bottom: 1px dashed #fff;
@@ -1514,8 +1658,8 @@
     width: 100%;
   }
   #containder-section-2 .containet-center .myproflie .proflie_left .myphoto img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 3px solid #fff;
   }
@@ -1534,16 +1678,17 @@
     text-align: center;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right {
-    height: 55%;
     width: 100%;
+    height: 70%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 0px;
-    top: -2%;
+    top: -11%;
     position: relative;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .my {
     width: 100%;
+    height: 33%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -1576,6 +1721,7 @@
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .info {
     width: 100%;
+    height: 33%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1615,6 +1761,7 @@
     align-items: center;
     position: relative;
     margin: 0 8px;
+    height: 33%;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .stack::after {
     display: none;
@@ -1633,7 +1780,7 @@
     width: 100%;
     color: #fff;
     position: relative;
-    top: -15px;
+    top: 6%;
     line-height: 20px;
   }
   #containder-section-2 .containet-center .myproflie .proflie_right .stack .skil li {
@@ -1666,7 +1813,7 @@
     background-color: #fff;
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 1200px;
     overflow: hidden;
   }
   #containder-section-3-mo .containet-center-mo {
@@ -1674,7 +1821,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 100%;
+    height: 80%;
   }
   #containder-section-3-mo .containet-center-mo .portfolio-mo {
     width: 100%;
@@ -1716,6 +1863,7 @@
     position: relative;
     margin-bottom: 0;
     overflow: hidden;
+    margin-bottom: 15px;
   }
   #containder-section-3-mo .containet-center-mo .portfolio-list-mo > div .mo-img {
     position: relative;
@@ -1744,7 +1892,7 @@
     position: absolute;
     text-align: center;
     z-index: 16;
-    height: 60%;
+    height: 40%;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -1782,22 +1930,10 @@
     position: relative;
   }
   #containder-section-4::after {
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: #ffffff;
-    top: 20%;
-    left: 0;
-    position: absolute;
+    display: none;
   }
   #containder-section-4::before {
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: #ffffff;
-    bottom: 20%;
-    left: 0;
-    position: absolute;
+    display: none;
   }
   #containder-section-4 .containet-center .contact {
     margin-left: 3%;
