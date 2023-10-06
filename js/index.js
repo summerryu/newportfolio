@@ -156,7 +156,7 @@ const buyeo = document.querySelector(".buyeo");
 const boknabi = document.querySelector(".boknabi");
 const gueongbokgung = document.querySelector(".gueongbokgung");
 const crosstarget = document.querySelector(".crosstarget");
-const clinic = new ImageSlider(".clinic");
+const clinic = document.querySelector(".clinic");
 
 let portfoliolist = [clinic,crosstarget,buyeo,boknabi,gueongbokgung,];
 
