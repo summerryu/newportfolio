@@ -1949,7 +1949,7 @@
     background-color: #fff;
     display: block;
     width: 100%;
-    height: 1200px;
+    height: 1670px;
     overflow: hidden;
   }
   #containder-section-3-mo .containet-center-mo {
@@ -1961,7 +1961,7 @@
   }
   #containder-section-3-mo .containet-center-mo .portfolio-mo {
     width: 100%;
-    height: 1%;
+    height: 40px;
     margin: 0;
   }
   #containder-section-3-mo .containet-center-mo .portfolio-mo h1 {
@@ -1970,8 +1970,8 @@
     font-weight: 600;
     color: #000;
     position: relative;
-    left: 0;
-    bottom: 0%;
+    left: 10px;
+    bottom: -40%;
     font-family: "Cafe24ClassicType-Regular";
   }
   @font-face {
@@ -1992,14 +1992,14 @@
   }
   #containder-section-3-mo .containet-center-mo .portfolio-list-mo > div {
     width: 100%;
-    height: 30%;
+    height: 20.5%;
     align-items: center;
     display: flex;
     justify-content: center;
     position: relative;
     margin-bottom: 0;
     overflow: hidden;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
   }
   #containder-section-3-mo .containet-center-mo .portfolio-list-mo > div .mo-img {
     position: relative;
