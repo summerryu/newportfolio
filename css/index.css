@@ -337,6 +337,83 @@
   letter-spacing: 1px;
   position: relative;
 }
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic {
+  width: 100%;
+  display: flex;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left {
+  margin: 20px 20px;
+  position: relative;
+  width: 7.5%;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .minitextbox {
+  margin-top: 200px;
+  position: relative;
+  left: 200px;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .minitextbox h4 {
+  margin: 10px 0;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .minitextbox h2 {
+  font-size: 25px;
+  margin: 5px 0;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .view {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  position: absolute;
+  left: 35%;
+  bottom: 18%;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .view a {
+  margin: 0 auto;
+  color: gray;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .view:hover {
+  transition: all 0.3s;
+  background-color: rgb(0, 162, 255);
+  border: 1px solid rgb(0, 162, 255);
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .view:hover a {
+  color: #fff;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center .img_slide {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center .img_slide img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center .img_slide_btns {
+  display: flex;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center .img_slide_btns > div {
+  position: absolute;
+  font-size: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center .img_slide_btns > div a {
+  color: #ffffff;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center .img_slide_btns .prev_btn {
+  left: 10px;
+}
+#containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center .img_slide_btns .next_btn {
+  right: 10px;
+}
 #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget {
   width: 100%;
   display: flex;
@@ -1019,6 +1096,33 @@
     font-weight: normal;
     font-style: normal;
   }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left {
+    width: 10%;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .minitextbox {
+    margin-top: 100px;
+    left: 0px;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .minitextbox h2 {
+    margin: 10px 0;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .view {
+    width: 250px;
+    height: 40px;
+    left: 0%;
+    bottom: 30%;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center .img_slide {
+    width: 30%;
+    height: 50%;
+    position: relative;
+    left: -80px;
+  }
   #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left {
     width: 10%;
   }
@@ -1382,6 +1486,38 @@
     src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left {
+    width: 10%;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .minitextbox {
+    margin-top: 100px;
+    left: 0px;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .minitextbox h2 {
+    margin: 20px 0;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .minitextbox h4 {
+    margin: 0;
+    line-height: 20px;
+    font-size: 13px;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_left .view {
+    width: 90%;
+    height: 40px;
+    left: 0%;
+    bottom: 30%;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  #containder-section-3 .containet-center .portfolio .portfolio_list .clinic .clinic_content_center .img_slide {
+    width: 30%;
+    height: 40%;
+    position: relative;
+    left: -30px;
   }
   #containder-section-3 .containet-center .portfolio .portfolio_list .crosstarget .crosstarget_content_left {
     width: 10%;

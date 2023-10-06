@@ -333,6 +333,83 @@
                     letter-spacing: 1px;
                     position: relative;
                 }
+                .clinic{
+                    width: 100%;
+                    display: flex;
+                    .clinic_content_left{
+                        margin: 20px 20px;
+                        position: relative;
+                        width: 7.5%;
+                        .minitextbox{
+                            margin-top: 200px;
+                            position: relative;
+                            left: 200px;
+                            h4{
+                                margin: 10px 0;
+                            }
+                            h2{
+                                font-size: 25px;
+                                margin: 5px 0;
+                            }
+                        }
+                        .view{
+                            width: 130px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            border: 1px solid gray;
+                            position: absolute;
+                            left: 35%;
+                            bottom:18%;
+                            a{
+                                margin: 0 auto;
+                                color: gray;
+                            }
+                            &:hover{
+                                transition: all 0.3s;
+                                background-color:rgb(0, 162, 255);
+                                border: 1px solid rgb(0, 162, 255);
+                                a{
+                                    color:#fff;
+                                }
+                            }
+                        }
+                    }
+                    .clinic_content_center{
+                        width: 50%;
+                        display: flex;
+                        align-items: center;
+                        .img_slide{
+                            width: 1000px;
+                            height: 500px;
+                            position: relative;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                position: absolute;
+                                transition: all 0.5s;
+                            }
+                        }
+                        .img_slide_btns{
+                            display: flex;
+                            >div{
+                                position: absolute;
+                                font-size: 60px;
+                                top:50%;
+                                transform: translateY(-50%);
+                                a{
+                                    color:#ffffff;
+                                }
+                            }
+                            .prev_btn{
+                                left: 10px;
+                            }
+                            .next_btn{
+                                right:10px;
+                            }
+                        }
+                    }
+                }
                 .crosstarget{
                     width: 100%;
                     display: flex;
@@ -1044,7 +1121,35 @@
                     }
                 }
                 .portfolio_list{
-                    //crosstarget
+                    .clinic{
+                        .clinic_content_left{
+                            width: 10%;
+                            .minitextbox{
+                                margin-top: 100px;
+                                left: 0px;
+                                h2{
+                                    margin: 10px 0;
+                                }
+                            }
+                            .view{
+                                width: 250px;
+                                height: 40px;
+                                left: 0%;
+                                bottom:30%;
+                            }
+                        }
+                        .clinic_content_center{
+                            width: 50%;
+                            display: flex;
+                            align-items: center;
+                            .img_slide{
+                                width: 30%;
+                                height: 50%;
+                                position: relative;
+                                left: -80px;
+                            }
+                        }
+                    }
                     .crosstarget{
                         .crosstarget_content_left{
                             width: 10%;
@@ -1434,6 +1539,40 @@
                     }
                 }
                 .portfolio_list{
+                    .clinic{
+                        .clinic_content_left{
+                            width: 10%;
+                            .minitextbox{
+                                margin-top: 100px;
+                                left: 0px;
+                                h2{
+                                    margin: 20px 0;
+                                }
+                                h4{
+                                    margin:0;
+                                    line-height: 20px;
+                                    font-size: 13px;
+                                }
+                            }
+                            .view{
+                                width: 90%;
+                                height: 40px;
+                                left: 0%;
+                                bottom:30%;
+                            }
+                        }
+                        .clinic_content_center{
+                            width: 50%;
+                            display: flex;
+                            align-items: center;
+                            .img_slide{
+                                width: 30%;
+                                height: 40%;
+                                position: relative;
+                                left: -30px;
+                            }
+                        }
+                    }
                     .crosstarget{
                         .crosstarget_content_left{
                             width: 10%;
