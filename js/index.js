@@ -146,19 +146,19 @@ class ImageSlider {
 const clinicSlider = new ImageSlider(".clinic_content_center");
 const crosstargetSlider = new ImageSlider(".crosstarget_content_center");
 const buyeoSlider = new ImageSlider(".buyeo_content_center");
-const nabiSlider = new ImageSlider(".boknabi_content_center");
+// const nabiSlider = new ImageSlider(".boknabi_content_center");
 const gueongbokgungSlider = new ImageSlider(".gueongbokgung_content_center");
 
 
 const portfoliobtns = document.querySelectorAll(".portfolio_btns li");
 
 const buyeo = document.querySelector(".buyeo");
-const boknabi = document.querySelector(".boknabi");
+// const boknabi = document.querySelector(".boknabi");
 const gueongbokgung = document.querySelector(".gueongbokgung");
 const crosstarget = document.querySelector(".crosstarget");
 const clinic = document.querySelector(".clinic");
 
-let portfoliolist = [clinic,crosstarget,buyeo,boknabi,gueongbokgung,];
+let portfoliolist = [clinic,crosstarget,buyeo,gueongbokgung,];
 
 for(let i=0; i< portfoliobtns.length; i++){
 	portfoliobtns[i].onclick = function(event){
